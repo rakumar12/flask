@@ -7,13 +7,4 @@ services:
       - "8000:8000"
     network_mode: host
 
-  nginx:
-    build: ./nginx
-    image: nginx:latest
-    container_name: nginx
-    environment:
-      - SERVER_NAME=3.92.134.21
-    restart: always 
-    network_mode: host
-    
 
