@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  flaskapp: ./flask_registration/flaskapp/regpage
+  flaskapp: ./flask_registration/flaskapp/regpage.py
     build: ./flask_registration
     ports:
       - "8000:8000"
